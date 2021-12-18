@@ -25,6 +25,12 @@ public class PaymentController {
         return true;
     }
 
+    @PostMapping("wallet/feeder") //project
+    public boolean feederEndpoint(@RequestBody Map<String, Object> payload) {
+        feederService.feederRequest(payload);
+        return true;
+    }
+
     @GetMapping("accounts")
     public List<Account> findAllAccounts() {
         // for testing purposes

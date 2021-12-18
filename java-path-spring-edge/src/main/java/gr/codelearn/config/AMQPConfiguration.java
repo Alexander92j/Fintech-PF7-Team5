@@ -11,7 +11,9 @@ import org.springframework.stereotype.Component;
 public class AMQPConfiguration {
     public static final String exchangeName = "payment.exchange";
     public static final String queueName = "payment.queue";
+    public static final String walletQueue = "wallet.queue"; //project
     public static final String routingKey = "payment";
+    public static final String walletRoutingKey = "wallet";
 
     @Bean
     DirectExchange paymentExchange() {
@@ -25,8 +27,18 @@ public class AMQPConfiguration {
         return new Queue(queueName, true);
     }
 
+    @Bean //prject
+    protected Queue walletQueue() {
+        return new Queue(walletQueue, true);
+    }
+
     @Bean
-    Binding paymentDirectBinding(DirectExchange exchange, Queue queue) {
-        return BindingBuilder.bind(queue).to(exchange).with(routingKey);
+    Binding paymentDirectBinding(DirectExchange exchange, Queue paymentQueue) {
+        return BindingBuilder.bind(paymentQueue).to(exchange).with(routingKey);
+    }
+
+    @Bean //project
+    Binding walletDirectBinding(DirectExchange exchange, Queue walletQueue) {
+        return BindingBuilder.bind(walletQueue).to(exchange).with(walletRoutingKey);
     }
 }

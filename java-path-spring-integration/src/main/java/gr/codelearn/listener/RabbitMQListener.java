@@ -22,4 +22,10 @@ public class RabbitMQListener {
         log.info("A payment payload has been received.");
         paymentsGateway.initiatePayment(payload);
     }
+
+    @RabbitListener(queues = walletQueue) //project
+    public void consumeWalletPayment(Map<String, Object> payload) {
+        log.info("A payment payload has been received.");
+        paymentsGateway.initiateWalletPayment(payload);
+    }
 }
