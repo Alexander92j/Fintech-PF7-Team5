@@ -22,18 +22,16 @@ public class CalculateFeeFlow {
     private AccountLookupService accountLookupService;
 
     @Bean
-    public MessageChannel accountsLookupChannel() {
+    public MessageChannel calculationFeeChannel() {
         return new DirectChannel();
     }
 
     @Bean
-    public IntegrationFlow accountLookupInternalFlow(MessageChannel accountLookupChannel, MessageChannel errorChannel) {
+    public IntegrationFlow calculateFeeInternalFlow(MessageChannel accountsLookupChannel) {
         return IntegrationFlows
-                .from(accountsLookupChannel())
-                .transform(accountLookupService::validate)
-                .<Map<String, Object>, Boolean>route(m -> Strings.isNullOrEmpty((String) m.get("errorMessage")), message -> message
-                        .channelMapping(true, accountLookupChannel)
-                        .channelMapping(false, errorChannel)
-                )
+                .from(calculationFeeChannel())
+                .transform(accountLookupService::calculateFee)
+                .channel(accountsLookupChannel)
                 .get();
     }
+}

@@ -14,18 +14,23 @@ import java.util.Map;
 public class RabbitMQListener {
 
     private static final String queueName = "payment.queue";
+    private static final String walletQueue="wallet.queue";
+    public static final String TYPE_WALLET="wallet";
+    public static final String TYPE_PAYMENT="payment";
 
     private PaymentsGateway paymentsGateway;
 
     @RabbitListener(queues = queueName)
     public void consumePayment(Map<String, Object> payload) {
         log.info("A payment payload has been received.");
+        payload.put("type", TYPE_PAYMENT);
         paymentsGateway.initiatePayment(payload);
     }
 
     @RabbitListener(queues = walletQueue) //project
-    public void consumeWalletPayment(Map<String, Object> payload) {
-        log.info("A payment payload has been received.");
-        paymentsGateway.initiateWalletPayment(payload);
+    public void consumeWalletPayment(Map<String, Object> wpayload) {
+        log.info("A Wallet payment payload has been received.");
+        wpayload.put("type",TYPE_WALLET);
+        paymentsGateway.initiateWalletPayment(wpayload);
     }
 }

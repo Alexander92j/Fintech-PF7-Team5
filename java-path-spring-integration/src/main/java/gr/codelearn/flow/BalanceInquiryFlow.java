@@ -13,6 +13,8 @@ import org.springframework.messaging.MessageChannel;
 
 import java.util.Map;
 
+import static gr.codelearn.listener.RabbitMQListener.TYPE_PAYMENT;
+
 @Configuration
 @EnableIntegration
 @AllArgsConstructor
@@ -29,7 +31,10 @@ public class BalanceInquiryFlow {
     public IntegrationFlow balanceInquiryInternalFlow(MessageChannel postingChannel, MessageChannel errorChannel) {
         return IntegrationFlows
                 .from(balanceInquiryChannel())
-                .transform(balanceInquiryService::checkTransactionFinancially)
+                .<Map<Boolean, Object>, Boolean>route(m -> TYPE_PAYMENT.equals(m.get("type")), msg -> msg
+                        .subFlowMapping(true, paymentFlow -> paymentFlow.transform(balanceInquiryService::checkTransactionFinancially))
+                        .subFlowMapping(false, walletFlow -> walletFlow.transform(balanceInquiryService::checkWalletTransactionFinancially))
+                        .defaultOutputToParentFlow())
                 .<Map<Boolean, Object>, Boolean>route(m -> Strings.isNullOrEmpty((String) m.get("errorMessage")), message -> message
                         .channelMapping(true, postingChannel)
                         .channelMapping(false, errorChannel)

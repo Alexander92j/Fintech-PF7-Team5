@@ -11,5 +11,5 @@ public interface PaymentsGateway {
     void initiatePayment(Map<String, Object> payload);
 
     @Gateway(requestChannel = "calculationFeeChannel") //project
-    void initiateWalletPayment(Map<String, Object> payload);
+    void initiateWalletPayment(Map<String, Object> wpayload);
 }

@@ -7,6 +7,7 @@ import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
+import java.math.BigDecimal;
 import java.util.Map;
 import java.util.Optional;
 
@@ -61,6 +62,17 @@ public class AccountLookupServiceImpl implements AccountLookupService {
 
         log.info("Performing validation has finished successfully.");
         payload.put("checkBeneficiaries", Boolean.TRUE);
+        return payload;
+    }
+
+    @Override
+    public Map<String, Object> calculateFee(Map<String, Object> payload) {
+        String paymentAmountStr = (String) payload.get("paymentAmount");
+        String paymentCurrency=(String) payload.get("paymentCurrency");
+        BigDecimal paymentAmount = new BigDecimal(paymentAmountStr);
+        BigDecimal feeAmount = paymentAmount.multiply(BigDecimal.valueOf(0.03));
+        payload.put("feeAmount", String.valueOf(feeAmount.setScale(2)));
+        payload.put("feeCurrency", paymentCurrency);
         return payload;
     }
 }

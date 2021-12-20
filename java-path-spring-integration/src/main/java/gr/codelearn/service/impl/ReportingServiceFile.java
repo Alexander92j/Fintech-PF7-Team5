@@ -45,6 +45,7 @@ public class ReportingServiceFile implements ReportingService {
                     + " with IBAN " + payload.get("debtorIBAN")
                     + " paid creditor " + payload.get("creditorName")
                     + " with IBAN " + payload.get("creditorIBAN")
+                    + " with TYPE " + payload.get("type")
                     + " the amount of " + payload.get("paymentAmount") + "(" + payload.get("paymentCurrency") + ")."
                     + "The fee was " + payload.get("feeAmount") + "(" + payload.get("feeCurrency") + ")."
                     + " Logged at " + new Date();
