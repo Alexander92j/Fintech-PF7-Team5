@@ -36,7 +36,7 @@ The database entries used here are pulled from the implemented **H2 server** in 
 "feeCurrency": "EUR"
 }
 ```
-Once the query has been sent, check on RabbitMQ that it has registered in Queues. If the payment can be prossesed, it'll be shown in the log file _payments_.
+Once the query has been sent, check on RabbitMQ that it has registered in Queues. If the payment can be processed, it'll be shown in the log file _payments_.
 
 ## The End!
 Thank you Code.Hub, Piraeus Bank and ReGeneration for this amazing learning experience.
