@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-21T10:46:25.033Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="jzatpLCqudKhTvdIGWte" version="16.0.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-12-21T10:47:29.800Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="5VRVA3oyb9Kv6RFHRXL7" version="16.0.0" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Payment &amp; Wallet">
     <mxGraphModel dx="868" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -46,15 +46,15 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oGs9uQ9BPyMRuh5oc1LU-33" value="Check email &amp;amp; password" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="400" y="30" width="100" height="80" as="geometry" />
+          <mxGeometry x="222.5" y="30" width="100" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="oGs9uQ9BPyMRuh5oc1LU-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oGs9uQ9BPyMRuh5oc1LU-36" target="oGs9uQ9BPyMRuh5oc1LU-33">
+        <mxCell id="oGs9uQ9BPyMRuh5oc1LU-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oGs9uQ9BPyMRuh5oc1LU-36" target="oGs9uQ9BPyMRuh5oc1LU-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oGs9uQ9BPyMRuh5oc1LU-36" value="Log- in Screen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="212.5" width="120" height="60" as="geometry" />
+          <mxGeometry width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oGs9uQ9BPyMRuh5oc1LU-39" value="Correct" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="oGs9uQ9BPyMRuh5oc1LU-39" value="Correct" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oGs9uQ9BPyMRuh5oc1LU-33">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="450" y="100" as="sourcePoint" />
             <mxPoint x="273" y="130" as="targetPoint" />
