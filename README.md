@@ -52,7 +52,9 @@ eWallet payment:
 "paymentCurrency": "EUR",
 }
 ```
-Once the query has been sent, check on RabbitMQ that it has registered in Queues. If the payment can be processed, it'll be shown in the log file _payments_.
+Once the respective query has been sent, check on RabbitMQ that it has registered in Queues. If the payment can be processed, it'll be shown in the log file _payments_.
+
+ps: Note that in eWallet payments, no fee amount and fee currency need to be declared, as they're both calculated by the respective module.
 
 ## The End!
 Thank you Code.Hub, Piraeus Bank and ReGeneration for this amazing learning experience.
