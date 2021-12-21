@@ -22,6 +22,8 @@ The database entries used here are pulled from the implemented **H2 server** in 
 3. Run **Postman**
 4. Via a browser login to ```http://localhost:15672``` with credentials ```guest``` - ```guest```
 5. In Postman select ```Post``` method with URL ```http://localhost:8080/api/feeder``` for Card payments or ```http://localhost:8080/api/wallet/feeder``` for eWallet payments. Then you'll need to supply a simple JSON query as follows (copy-paste it in Body tab and fill the gaps):
+
+Card payment:
 ```
 {
 "cid": "CU#########",
@@ -34,6 +36,20 @@ The database entries used here are pulled from the implemented **H2 server** in 
 "paymentCurrency": "EUR",
 "feeAmount": "#",
 "feeCurrency": "EUR"
+}
+```
+
+eWallet payment:
+```
+{
+"cid": "CU#########",
+"creditorName": "@@@ @@@",
+"creditorIBAN": "@@##############",
+"debtorName": "@@@ @@@",
+"debtorIBAN": "@@##############",
+"paymentAmount": "##.#",
+"valuerDate": "Year/Month/Day",
+"paymentCurrency": "EUR",
 }
 ```
 Once the query has been sent, check on RabbitMQ that it has registered in Queues. If the payment can be processed, it'll be shown in the log file _payments_.
