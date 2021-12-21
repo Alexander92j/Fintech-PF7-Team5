@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-21T10:07:44.413Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="gACL2pRlb467WzmEWiVE" version="16.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-21T10:12:18.589Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="dYebHnW9EPnPZshGAQxf" version="16.0.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="868" dy="1619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -15,10 +15,10 @@
         <mxCell id="jiWPsRULAdNwWH0B6eo_-13" value="&lt;div&gt;Card or Wallet &lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="205" y="140" width="135" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="jiWPsRULAdNwWH0B6eo_-16" value="&lt;div&gt;Wallet&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jiWPsRULAdNwWH0B6eo_-13" edge="1">
+        <mxCell id="jiWPsRULAdNwWH0B6eo_-16" value="&lt;div&gt;Wallet&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jiWPsRULAdNwWH0B6eo_-13" edge="1" target="oGs9uQ9BPyMRuh5oc1LU-45">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="350" y="280" as="sourcePoint" />
-            <mxPoint x="450" y="200" as="targetPoint" />
+            <mxPoint x="454" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jiWPsRULAdNwWH0B6eo_-17" value="Card" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1" target="oGs9uQ9BPyMRuh5oc1LU-2" source="jiWPsRULAdNwWH0B6eo_-13">
@@ -34,10 +34,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oGs9uQ9BPyMRuh5oc1LU-3" value="1.5% fee from deptor" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="450" y="150" width="100" height="100" as="geometry" />
+          <mxGeometry x="660" y="155" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="oGs9uQ9BPyMRuh5oc1LU-5" value="Transfer rejected" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="440" y="30" width="120" height="60" as="geometry" />
+          <mxGeometry x="470" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="oGs9uQ9BPyMRuh5oc1LU-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oGs9uQ9BPyMRuh5oc1LU-5" target="jiWPsRULAdNwWH0B6eo_-13">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -57,16 +57,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="oGs9uQ9BPyMRuh5oc1LU-15" value="1.5% fee from&amp;nbsp;creditor" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="630" y="150" width="100" height="100" as="geometry" />
+          <mxGeometry x="790" y="155" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="oGs9uQ9BPyMRuh5oc1LU-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oGs9uQ9BPyMRuh5oc1LU-19" target="oGs9uQ9BPyMRuh5oc1LU-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oGs9uQ9BPyMRuh5oc1LU-19" value="Transfer this 3% to Bank&#39;s Account" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="670" y="330" width="120" height="60" as="geometry" />
+          <mxGeometry x="780" y="350" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="oGs9uQ9BPyMRuh5oc1LU-26" value="Transfer the amount from Deptor to Creditor" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="414" y="330" width="120" height="60" as="geometry" />
+          <mxGeometry x="610" y="350" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="oGs9uQ9BPyMRuh5oc1LU-33" value="Check email &amp;amp; password" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="222.5" y="-40" width="100" height="80" as="geometry" />
@@ -92,8 +92,14 @@
             <mxPoint x="273" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oGs9uQ9BPyMRuh5oc1LU-42" value="Check if the total amount of transfer existing" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="750" y="-30" width="110" height="110" as="geometry" />
+        <mxCell id="oGs9uQ9BPyMRuh5oc1LU-45" value="Choose Creditor and amount of transfer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="414" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oGs9uQ9BPyMRuh5oc1LU-47" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oGs9uQ9BPyMRuh5oc1LU-15" target="oGs9uQ9BPyMRuh5oc1LU-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="270" as="sourcePoint" />
+            <mxPoint x="480" y="220" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
