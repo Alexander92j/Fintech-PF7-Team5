@@ -1,17 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2021-12-21T10:12:18.589Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="dYebHnW9EPnPZshGAQxf" version="16.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-21T10:26:26.474Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="_nrWk8SePYpc8ce3Yl98" version="16.0.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="868" dy="1619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="zkfFHV4jXpPFQw0GAbJ--13" value="" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="670" y="480" width="150" height="50" as="geometry">
-            <mxRectangle x="340" y="380" width="170" height="26" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="zkfFHV4jXpPFQw0GAbJ--15" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--13" vertex="1">
-          <mxGeometry y="26" width="150" height="8" as="geometry" />
-        </mxCell>
         <mxCell id="jiWPsRULAdNwWH0B6eo_-13" value="&lt;div&gt;Card or Wallet &lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="205" y="140" width="135" height="120" as="geometry" />
         </mxCell>
@@ -27,46 +19,26 @@
             <mxPoint x="130" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oGs9uQ9BPyMRuh5oc1LU-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="20" y="170" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="oGs9uQ9BPyMRuh5oc1LU-16" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oGs9uQ9BPyMRuh5oc1LU-3" target="oGs9uQ9BPyMRuh5oc1LU-15">
+        <mxCell id="oGs9uQ9BPyMRuh5oc1LU-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oGs9uQ9BPyMRuh5oc1LU-2" target="oGs9uQ9BPyMRuh5oc1LU-72">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oGs9uQ9BPyMRuh5oc1LU-3" value="1.5% fee from deptor" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="660" y="155" width="100" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="oGs9uQ9BPyMRuh5oc1LU-5" value="Transfer rejected" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="470" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="oGs9uQ9BPyMRuh5oc1LU-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oGs9uQ9BPyMRuh5oc1LU-5" target="jiWPsRULAdNwWH0B6eo_-13">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="330" y="240" as="sourcePoint" />
-            <mxPoint x="380" y="190" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="oGs9uQ9BPyMRuh5oc1LU-11" value="No" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oGs9uQ9BPyMRuh5oc1LU-3" target="oGs9uQ9BPyMRuh5oc1LU-5">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="330" y="240" as="sourcePoint" />
-            <mxPoint x="380" y="190" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="oGs9uQ9BPyMRuh5oc1LU-18" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oGs9uQ9BPyMRuh5oc1LU-15" target="oGs9uQ9BPyMRuh5oc1LU-5">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="570" y="100" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="oGs9uQ9BPyMRuh5oc1LU-15" value="1.5% fee from&amp;nbsp;creditor" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="790" y="155" width="100" height="100" as="geometry" />
+        <mxCell id="oGs9uQ9BPyMRuh5oc1LU-2" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;Choose Creditor, amount of transfer and fee&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="20" y="170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="oGs9uQ9BPyMRuh5oc1LU-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oGs9uQ9BPyMRuh5oc1LU-19" target="oGs9uQ9BPyMRuh5oc1LU-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oGs9uQ9BPyMRuh5oc1LU-19" value="Transfer this 3% to Bank&#39;s Account" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="780" y="350" width="120" height="60" as="geometry" />
+          <mxGeometry x="550" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oGs9uQ9BPyMRuh5oc1LU-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oGs9uQ9BPyMRuh5oc1LU-26" target="oGs9uQ9BPyMRuh5oc1LU-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oGs9uQ9BPyMRuh5oc1LU-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oGs9uQ9BPyMRuh5oc1LU-26" target="oGs9uQ9BPyMRuh5oc1LU-70">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oGs9uQ9BPyMRuh5oc1LU-26" value="Transfer the amount from Deptor to Creditor" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="610" y="350" width="120" height="60" as="geometry" />
+          <mxGeometry x="400" y="810" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="oGs9uQ9BPyMRuh5oc1LU-33" value="Check email &amp;amp; password" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="222.5" y="-40" width="100" height="80" as="geometry" />
@@ -92,14 +64,89 @@
             <mxPoint x="273" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="oGs9uQ9BPyMRuh5oc1LU-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oGs9uQ9BPyMRuh5oc1LU-45" target="oGs9uQ9BPyMRuh5oc1LU-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="oGs9uQ9BPyMRuh5oc1LU-45" value="Choose Creditor and amount of transfer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="414" y="170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oGs9uQ9BPyMRuh5oc1LU-47" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oGs9uQ9BPyMRuh5oc1LU-15" target="oGs9uQ9BPyMRuh5oc1LU-19">
+        <mxCell id="oGs9uQ9BPyMRuh5oc1LU-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oGs9uQ9BPyMRuh5oc1LU-48" target="oGs9uQ9BPyMRuh5oc1LU-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oGs9uQ9BPyMRuh5oc1LU-48" value="Wallet Queue" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="414" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oGs9uQ9BPyMRuh5oc1LU-50" value="Edge" style="endArrow=none;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="430" y="270" as="sourcePoint" />
-            <mxPoint x="480" y="220" as="targetPoint" />
+            <mxPoint y="360" as="sourcePoint" />
+            <mxPoint x="550" y="360" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="oGs9uQ9BPyMRuh5oc1LU-51" value="Calculate Fee" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="414" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oGs9uQ9BPyMRuh5oc1LU-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oGs9uQ9BPyMRuh5oc1LU-53" target="oGs9uQ9BPyMRuh5oc1LU-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oGs9uQ9BPyMRuh5oc1LU-53" value="Account LookUp" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="434" y="520" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oGs9uQ9BPyMRuh5oc1LU-54" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oGs9uQ9BPyMRuh5oc1LU-51" target="oGs9uQ9BPyMRuh5oc1LU-53">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="570" as="sourcePoint" />
+            <mxPoint x="360" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oGs9uQ9BPyMRuh5oc1LU-55" value="No" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oGs9uQ9BPyMRuh5oc1LU-53" target="oGs9uQ9BPyMRuh5oc1LU-56">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="370" as="sourcePoint" />
+            <mxPoint x="360" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oGs9uQ9BPyMRuh5oc1LU-56" value="Transfer rejected" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="240" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oGs9uQ9BPyMRuh5oc1LU-57" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oGs9uQ9BPyMRuh5oc1LU-56" target="jiWPsRULAdNwWH0B6eo_-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="260" as="sourcePoint" />
+            <mxPoint x="360" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oGs9uQ9BPyMRuh5oc1LU-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oGs9uQ9BPyMRuh5oc1LU-59" target="oGs9uQ9BPyMRuh5oc1LU-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oGs9uQ9BPyMRuh5oc1LU-59" value="Balance Inquiry" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="434" y="630" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oGs9uQ9BPyMRuh5oc1LU-61" value="No" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oGs9uQ9BPyMRuh5oc1LU-59" target="oGs9uQ9BPyMRuh5oc1LU-56">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="480" as="sourcePoint" />
+            <mxPoint x="680" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oGs9uQ9BPyMRuh5oc1LU-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oGs9uQ9BPyMRuh5oc1LU-62" target="oGs9uQ9BPyMRuh5oc1LU-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oGs9uQ9BPyMRuh5oc1LU-62" value="&lt;br&gt;&lt;br&gt;remove 1.5% from the debtor&lt;br&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="550" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oGs9uQ9BPyMRuh5oc1LU-64" value="&lt;br&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;remove 1.5% from the creditor&lt;/span&gt;&lt;br&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="550" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oGs9uQ9BPyMRuh5oc1LU-67" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oGs9uQ9BPyMRuh5oc1LU-64" target="oGs9uQ9BPyMRuh5oc1LU-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="820" as="sourcePoint" />
+            <mxPoint x="680" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oGs9uQ9BPyMRuh5oc1LU-68" value="&#xa;&#xa;&lt;b style=&quot;font-weight: normal&quot; id=&quot;docs-internal-guid-dbb8c8f2-7fff-a67b-86fc-b061e086bc53&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: arial; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Exchange is saved to log file (SS)&lt;/span&gt;&lt;/b&gt;&#xa;&#xa;" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="250" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oGs9uQ9BPyMRuh5oc1LU-70" value="Update Accounts" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="250" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oGs9uQ9BPyMRuh5oc1LU-72" value="Payment Queue" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="20" y="280" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
