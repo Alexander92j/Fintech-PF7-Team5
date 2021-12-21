@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-21T11:19:11.437Z" agent="5.0 (Windows)" etag="m5m2dxJToPDvjKzkD4N6" version="16.0.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-12-21T11:20:27.945Z" agent="5.0 (Windows)" etag="3cnkaYux7sxTH5S8q77A" version="16.0.0" type="github" pages="2">
   <diagram id="kEtk70t6EcMc8KrhRpkO" name="Payment">
     <mxGraphModel dx="1329" dy="1138" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -27,10 +27,10 @@
         <mxCell id="iEjaclmm431INqXe0u---10" value="Transfer rejected" style="whiteSpace=wrap;html=1;" parent="iEjaclmm431INqXe0u---1" vertex="1">
           <mxGeometry x="512" y="510" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="iEjaclmm431INqXe0u---12" value="&lt;br&gt;&lt;b style=&quot;font-weight: normal&quot; id=&quot;docs-internal-guid-dbb8c8f2-7fff-a67b-86fc-b061e086bc53&quot;&gt;&lt;span style=&quot;font-size: 11pt ; font-family: &amp;#34;arial&amp;#34; ; color: rgb(0 , 0 , 0) ; background-color: transparent ; font-weight: 400 ; font-style: normal ; font-variant: normal ; text-decoration: none ; vertical-align: baseline&quot;&gt;Exchange is saved to log file&lt;/span&gt;&lt;/b&gt;&lt;br&gt;" style="whiteSpace=wrap;html=1;" parent="iEjaclmm431INqXe0u---1" vertex="1">
+        <mxCell id="iEjaclmm431INqXe0u---12" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; ; color: rgb(0 , 0 , 0) ; background-color: transparent ; font-style: normal ; font-variant: normal ; text-decoration: none ; vertical-align: baseline&quot;&gt;Exchange is saved to log file&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;" parent="iEjaclmm431INqXe0u---1" vertex="1">
           <mxGeometry x="262" y="980" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="iEjaclmm431INqXe0u---13" value="Update Accounts" style="whiteSpace=wrap;html=1;" parent="iEjaclmm431INqXe0u---1" vertex="1">
+        <mxCell id="iEjaclmm431INqXe0u---13" value="&lt;font style=&quot;font-size: 14px&quot;&gt;Update Accounts&lt;/font&gt;" style="whiteSpace=wrap;html=1;" parent="iEjaclmm431INqXe0u---1" vertex="1">
           <mxGeometry x="422" y="980" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="iEjaclmm431INqXe0u---14" value="Payment Queue" style="whiteSpace=wrap;html=1;rounded=0;" parent="iEjaclmm431INqXe0u---1" vertex="1">
